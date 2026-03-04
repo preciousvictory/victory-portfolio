@@ -116,7 +116,7 @@ export const Hero = () => {
                     >
                         {/* Note: User must supply image at public/images/victory.png or jpg. We will use a standard img tag for ease of drop-in */}
                         <img
-                            src="/images/victory.jpg"
+                            src="/images/preciousvictory.jpg"
                             alt="Victory Abiodun-Omoniyi"
                             className="w-full h-full object-cover object-top filter grayscale hover:grayscale-0 transition-all duration-500"
                             draggable={false}
