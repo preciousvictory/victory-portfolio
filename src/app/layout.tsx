@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Victory Abiodun-Omoniyi | Intelligent Systems & Digital Products",
-  description: "Software Engineer & Systems Engineering student designing intelligent systems and digital products.",
+  title: "Victory Abiodun-Omoniyi | Software Engineer",
+  description: "Software Engineer & Systems Engineer designing intelligent systems and digital products.",
   keywords: ["Software Engineer", "Frontend", "IoT", "Embedded Systems", "Victory Abiodun-Omoniyi", "Nigeria"],
   authors: [{ name: "Victory Abiodun-Omoniyi" }],
   icons: {
