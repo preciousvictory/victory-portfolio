@@ -1,0 +1,14 @@
+declare module "react-masonry-css" {
+    import * as React from "react";
+
+    interface MasonryProps {
+        breakpointCols?: number | { default: number; [key: number]: number };
+        className?: string;
+        columnClassName?: string;
+        children?: React.ReactNode;
+        [key: string]: unknown;
+    }
+
+    const Masonry: React.FC<MasonryProps>;
+    export default Masonry;
+}

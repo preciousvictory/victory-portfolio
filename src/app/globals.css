@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Offset all anchor targets so the fixed navbar doesn't cover them */
+  [id] {
+    scroll-margin-top: 80px;
+  }
+
+  body {
+    background-color: #0a0a0a;
+    color: #e5e5e5;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  html.light body {
+    background-color: #fafafa;
+    color: #171717;
+  }
+}
+
+/* Custom styles for animations if needed */
+::selection {
+  background-color: rgba(139, 92, 246, 0.3);
+  color: #fff;
+}
